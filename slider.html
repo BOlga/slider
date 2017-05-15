@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Slider</title>
+    <link rel="stylesheet" href="css/slider.css" />
+    <script src="script/slider.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="content_container_id" class="slider_content">
+        <img src="http://mirpozitiva.ru/uploads/posts/2016-08/1472042492_01.jpg" class="slider_content" />
+        <img src="http://mirpozitiva.ru/uploads/posts/2016-08/1472043884_02.jpg" class="slider_content" />
+        <div class="slider_content">
+            <div>khwkihudf aw oueitfyhaer</div>
+        </div>
+        <ul class="slider_content">
+            <li>hhh</li>
+            <li>dd</li>
+        </ul>
+        <img src="http://mirpozitiva.ru/uploads/posts/2016-08/1472042585_06.jpg" class="slider_content" />
+        <img src="http://mirpozitiva.ru/uploads/posts/2016-08/1472042718_14.jpg" class="slider_content" />
+        <img src="http://mirpozitiva.ru/uploads/posts/2016-08/1472042512_05.jpg" class="slider_content" />
+        <img src="http://mirpozitiva.ru/uploads/posts/2016-08/1472042634_12.jpg" class="slider_content" />
+        <img src="http://mirpozitiva.ru/uploads/posts/2016-08/1472042978_32.jpg" class="slider_content" />
+
+    </div>
+    <div id="display_container_id" class="">
+    </div>
+
+      
+    <script type='text/javascript'>
+        var container = document.getElementById("display_container_id");
+        var content = document.getElementById("content_container_id");
+        var slider = new CurrentSlider(null, content, '.slider_content');
+        slider.renderSlider();
+        //slider.StartAutoScrolling(1000);
+    </script>
+</body>
+</html>
